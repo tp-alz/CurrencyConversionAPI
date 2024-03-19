@@ -1,6 +1,6 @@
 import { API_HOST, API_KEY, API_URL } from "./apiSettings";
 
-export const addPet = (params, autoControl = true) => {
+export const getExchange = (params, autoControl = true) => {
     return cy.request({
         method: 'GET',
         url: `${API_URL}?from=${params.from}&to=${params.to}`,

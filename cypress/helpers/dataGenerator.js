@@ -1,5 +1,5 @@
 
-export const getPetData = () => {
+export const getExchangeData = () => {
 
     return {
         from: 'UYU',
